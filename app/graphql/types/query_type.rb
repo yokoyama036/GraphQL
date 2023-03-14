@@ -8,7 +8,7 @@ module Types
     # They will be entry points for queries on your schema.
 
     # TODO: remove me
-    field :blog, BlogType, null: false,
+    field :blog, BlogType, null: false
     def blog
       Blog.last
       # context[:blog]
